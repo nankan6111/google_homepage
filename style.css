@@ -1,0 +1,115 @@
+
+body{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 40px auto 40px;
+}
+
+
+.headerLink {
+    display: inline-block;
+    padding-left: 15px;
+    color: black;
+    opacity: 0.75;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+.headerLink:hover{
+    text-decoration: underline;
+}
+
+.footerLink{
+    display: inline-block;
+    padding-left: 27px;
+    margin: 0;
+    color: #5f6368;
+    opacity: 0.75;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    /*white-space: nowrap;*/
+
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+#headerBar {
+    margin-top: 20px;
+    display: flex;
+}
+
+#barElement1 {
+    flex: 0.75;
+}
+
+#barElement2 {
+    display: flex;
+    flex: 0.15;
+}
+
+#barElement3{
+    flex: 0.1;
+}
+
+#signInButton {
+    padding: 8px 14px;
+    border-radius: 2px;
+    width: 60px;
+    height: 28px;
+    background: #4683ea;
+
+
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: white;
+    text-shadow: 0.1px 0.1px whitesmoke;
+}
+
+#main {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchBar {
+    margin: 20px auto 20px auto;
+}
+
+#searchButton{
+    margin: 20px auto 20px auto;
+}
+
+#magnifying_glass {
+    size: 10px;
+}
+
+#footer{
+    margin: 10px -8px -25px -8px;
+    line-height: 40px;
+    background: #f2f2f2;
+    display: flex;
+
+    font-size: 14px;
+
+}
+
+.footerLink{
+    color: #5f6368;
+}
+
+#footerElement1{
+    flex:1 auto;
+}
+
+#footerElement2{
+    margin-right: 20px;
+    flex:0 auto;
+}
